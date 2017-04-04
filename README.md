@@ -1,7 +1,7 @@
 # Image Processor Implemented in C++ with OpenMP 
 Distributed computing and parallel programming concepts implemented with a gritty image processor
 
-![Alt text](monalisa.PNG?raw=true "Mona Lisa")
+![Alt text](https://github.com/falmatam/image-processor-openMP/blob/master/monalisa.PNG "Mona Lisa")
 
 ## Getting Started
 
