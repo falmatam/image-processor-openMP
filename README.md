@@ -1,6 +1,8 @@
 # Image Processor Implemented in C++ with OpenMP 
 Distributed computing and parallel programming concepts implemented with a gritty image processor
 
+![Alt text](/monalisa.png?raw=true "Mona Lisa")
+
 ## Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. 
