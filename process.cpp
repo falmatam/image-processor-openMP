@@ -24,7 +24,7 @@ void compute_sobel_static()
 {
 
 	//Static scheduling divides iterations evenly between threads
-	//• Default chunk size is num_Iterations/num_Threads 
+	//â€¢ Default chunk size is num_Iterations/num_Threads 
 
 	omp_set_dynamic(0);
 	omp_set_num_threads(NUM_THREADS);
@@ -97,11 +97,11 @@ void compute_sobel_static()
 void compute_sobel_dynamic()
 {
 
-//• Dynamic scheduling uses an internal work queue to
+//â€¢ Dynamic scheduling uses an internal work queue to
 //dispatch chunkSized blocks to each thread. When a
 //thread finishes a block, it gets the next block
-//• Default chunk size is 1
-//• Think Part B Lab 1
+//â€¢ Default chunk size is 1
+//â€¢ Think Part B Lab 1
 
 	omp_set_dynamic(0);
 	omp_set_num_threads(NUM_THREADS);
@@ -165,7 +165,7 @@ void compute_sobel_dynamic()
 }
  }
 }
-/* **************** Change the function below if you need to ***************** */
+
 
 int main(int argc, char* argv[])
 {
